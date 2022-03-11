@@ -23,6 +23,7 @@ class CoinbaseWalletAuth(AuthBase):
             'CB-ACCESS-SIGN': signature,
             'CB-ACCESS-TIMESTAMP': CB_ACCESS_TIMESTAMP,
             'CB-ACCESS-KEY': self.api_key,
+            'CB-VERSION': '2015-07-22'
         })
         return request
 
@@ -34,4 +35,4 @@ if r.status_code == 200:
    accounts = r.json() ['data']
    for account in accounts:
        if float(account['balance']['amount']) > 0:
-          print("{}: {} ({})".format(account['currency']['code'], account['balance']['amount'], account['currency']['name']))
+          print("{}: {} ({})".format(account['currency'], account['balance']['amount'], account['native_balance']['amount']))

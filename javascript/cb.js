@@ -23,22 +23,22 @@ var cb_access_sign = hmac.update(message).digest('hex');
 const options = {
     method: 'GET',
     headers: {
-      Accept: 'application/json',      
+      Accept: 'application/json',
       'CB-ACCESS-KEY': CB_ACCESS_KEY,
       'CB-ACCESS-SIGN': cb_access_sign,
       'CB-ACCESS-TIMESTAMP': CB_ACCESS_TIMESTAMP,
-      'CB-VERSION':  '2015-07-22',
-    }  
+      'CB-VERSION': '2015-07-22'
+    }
   };
-   
-fetch(API_URL + requestPath, options)  
-    .then(response => response.json())  
+
+fetch(API_URL + requestPath, options)
+    .then(response => response.json())
     .then(response => {
       //console.log(response);
       response.data.forEach(function (account) {
         if (account.balance.amount > 0) {
            console.log(account.currency + ": " + account.balance.amount + " ($" + account.native_balance.amount  + ")");
-        }        
-      });      
+        }
+      });
     })
     .catch(err => console.error(err));
