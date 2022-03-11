@@ -34,7 +34,6 @@ const options = {
 fetch(API_URL + requestPath, options)
     .then(response => response.json())
     .then(response => {
-      //console.log(response);
       response.data.forEach(function (account) {
         if (account.balance.amount > 0) {
            console.log(account.currency + ": " + account.balance.amount + " ($" + account.native_balance.amount  + ")");
