@@ -1,0 +1,15 @@
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\cb.exe
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\cb.deps.json
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\cb.runtimeconfig.json
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\cb.dll
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\ref\cb.dll
+C:\YouTubeProjects\cb\c#\bin\Debug\net6.0\cb.pdb
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.csproj.AssemblyReference.cache
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.GeneratedMSBuildEditorConfig.editorconfig
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.AssemblyInfoInputs.cache
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.AssemblyInfo.cs
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.csproj.CoreCompileInputs.cache
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.dll
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\ref\cb.dll
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.pdb
+C:\YouTubeProjects\cb\c#\obj\Debug\net6.0\cb.genruntimeconfig.cache
